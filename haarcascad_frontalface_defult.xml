@@ -1,0 +1,22 @@
+Collecting git+git://github.com/PnS2019/pnslib.git
+  Cloning git://github.com/PnS2019/pnslib.git to /tmp/pip-req-build-3lrpb263
+  Running command git clone -q git://github.com/PnS2019/pnslib.git /tmp/pip-req-build-3lrpb263
+Requirement already satisfied (use --upgrade to upgrade): pnslib==0.1.0a1 from git+git://github.com/PnS2019/pnslib.git in /usr/local/lib/python3.6/dist-packages
+Requirement already satisfied: numpy in /usr/local/lib/python3.6/dist-packages (from pnslib==0.1.0a1) (1.18.5)
+Requirement already satisfied: scipy in /usr/local/lib/python3.6/dist-packages (from pnslib==0.1.0a1) (1.4.1)
+Requirement already satisfied: future in /usr/local/lib/python3.6/dist-packages (from pnslib==0.1.0a1) (0.16.0)
+Building wheels for collected packages: pnslib
+  Building wheel for pnslib (setup.py) ... done
+  Created wheel for pnslib: filename=pnslib-0.1.0a1-cp36-none-any.whl size=1489618 sha256=914ca7262f0ea3378f3d16f24861a3378004dde4f6a0ea1538c79f2db9b3cb51
+  Stored in directory: /tmp/pip-ephem-wheel-cache-3o7wd47h/wheels/a2/8e/a9/c62e72840009deaa723b3a113d5c3b90acac77098d16e90eca
+Successfully built pnslib
+--2020-07-10 04:26:21--  https://pns2019.github.io/images/Lenna.png
+Resolving pns2019.github.io (pns2019.github.io)... 185.199.109.153, 185.199.110.153, 185.199.108.153, ...
+Connecting to pns2019.github.io (pns2019.github.io)|185.199.109.153|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 473831 (463K) [image/png]
+Saving to: ‘Lenna.png.2’
+
+Lenna.png.2         100%[===================>] 462.73K  --.-KB/s    in 0.06s   
+
+2020-07-10 04:26:21 (7.99 MB/s) - ‘Lenna.png.2’ saved [473831/473831]
